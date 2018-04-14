@@ -1,1 +1,10 @@
-Title.css
+.Title .editIcon{
+	opacity: 0;
+
+	transition: all .3s ease-in-out;
+	cursor: pointer;
+}
+
+.Title:hover .editIcon{
+	opacity: 1;
+}
