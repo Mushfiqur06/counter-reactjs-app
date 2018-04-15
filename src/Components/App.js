@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Title from './TitleComponent/Title'
 import CountDown from './CountDownComponent/countDown'
+import Controller from './ControllerComponent/Controller'
 
 class App extends Component {
 
@@ -26,6 +27,7 @@ class App extends Component {
           	<div className='col-sm-8 offset-sm-2'>
           		<Title />
           		<CountDown time={ this.state.time } />
+          		<Controller />
           	</div>
           </div>
         </div>
