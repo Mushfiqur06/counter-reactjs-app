@@ -12,13 +12,13 @@ class App extends Component {
 		super(props)
 
 		this.state = {
-			time: {
-				min: 0,
-				sec: 0,
-				mili: 0
-			}
-		}
-		laps: []
+	      time: {
+	        min: 0,
+	        sec: 0,
+	        mili: 0
+	      },
+	      laps: []
+	    }
 	}
 
 	getStart(){
