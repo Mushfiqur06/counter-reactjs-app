@@ -37,8 +37,8 @@ class Controller extends Component{
 		this.props.pause();
 	}
 
-	lapHandller(event){
-
+	lapHandller(){
+		this.props.lap();
 	}
 
 	resetHandller(event){
@@ -48,6 +48,8 @@ class Controller extends Component{
 			lap: false,
 			reset: false
 		})
+
+		this.props.reset();
 	}
 
 	getController(){
